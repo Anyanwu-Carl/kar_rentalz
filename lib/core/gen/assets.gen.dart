@@ -188,6 +188,10 @@ class $AssetsImagesGen {
   AssetGenImage get maserati =>
       const AssetGenImage('assets/images/maserati.png');
 
+  /// Directory path: assets/images/onboarding
+  $AssetsImagesOnboardingGen get onboarding =>
+      const $AssetsImagesOnboardingGen();
+
   /// File path: assets/images/otp-illustration.svg
   String get otpIllustration => 'assets/images/otp-illustration.svg';
 
@@ -219,6 +223,34 @@ class $AssetsImagesGen {
     profile,
     sampleLogo,
     speedIndicator,
+  ];
+}
+
+class $AssetsImagesOnboardingGen {
+  const $AssetsImagesOnboardingGen();
+
+  /// File path: assets/images/onboarding/onboarding_image_1.svg
+  String get onboardingImage1 =>
+      'assets/images/onboarding/onboarding-image-1.svg';
+
+  /// File path: assets/images/onboarding/onboarding_image_2.svg
+  String get onboardingImage2 =>
+      'assets/images/onboarding/onboarding-image-2.svg';
+
+  /// File path: assets/images/onboarding/onboarding_image_3.svg
+  String get onboardingImage3 =>
+      'assets/images/onboarding/onboarding-image-3.svg';
+
+  /// File path: assets/images/onboarding/onboarding_image_4.svg
+  String get onboardingImage4 =>
+      'assets/images/onboarding/onboarding-image-4.svg';
+
+  /// List of all assets
+  List<String> get values => [
+    onboardingImage1,
+    onboardingImage2,
+    onboardingImage3,
+    onboardingImage4,
   ];
 }
 
