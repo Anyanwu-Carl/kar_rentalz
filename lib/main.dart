@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.transparent,
         ),
       ),
-      home: Onboardingscreen(),
+      home: OnboardingScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
