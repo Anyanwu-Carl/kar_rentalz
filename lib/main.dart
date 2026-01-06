@@ -1,5 +1,6 @@
 import 'package:car_rentalz/core/gen/fonts.gen.dart';
 import 'package:car_rentalz/core/themes/colors.dart';
+import 'package:car_rentalz/features/authentification_feature/presentation/screens/authentication_screen.dart';
 import 'package:car_rentalz/features/onboarding_feature/presentation/screen/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.transparent,
         ),
       ),
-      home: OnboardingScreen(),
+      home: AuthenticationScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
